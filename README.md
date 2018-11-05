@@ -35,7 +35,8 @@ A custom graph library , to draw  clean 2D plots in a JavaFX canvas.
         //if you add
         c.enableZero();
         
-        //refer response 3
+        //refer response 3 for with this parameter
+        //refer response 4 for without this parameter
         
         --------------------------------------------------------------------------
         
@@ -53,7 +54,7 @@ A custom graph library , to draw  clean 2D plots in a JavaFX canvas.
         } catch (Exception ex) {
         }
         
-        //refer reponse 4
+        //refer reponse 5
         
         
         --------------------------------------------------------------------------
@@ -70,4 +71,4 @@ A custom graph library , to draw  clean 2D plots in a JavaFX canvas.
         } catch (Exception ex) {
         }
       
-        //refer response 5
+        //refer response 8
