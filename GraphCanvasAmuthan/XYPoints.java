@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package graphanalyzer.cangraph;
 
 import java.text.DecimalFormat;
@@ -17,6 +13,7 @@ import java.util.TreeMap;
 /**
  *
  * @author AMUTHAN
+ All rights reserved to the authour
  */
 public class XYPoints {
     
