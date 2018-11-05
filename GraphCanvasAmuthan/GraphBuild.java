@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package graphanalyzer.cangraph;
 
 import java.text.DecimalFormat;
@@ -20,6 +16,7 @@ import javafx.scene.text.TextAlignment;
 /**
  *
  * @author AMUTHAN
+ All rights reserved to the athour
  */
 public class GraphBuild {
     Canvas canvas;
@@ -92,7 +89,7 @@ public class GraphBuild {
           
           XandYunits(p);
      }
-    
+    //write the xy strings
     void XandYunits(XYPoints p){
       redraw();  
       unitsPaint();
@@ -110,7 +107,7 @@ public class GraphBuild {
       //linedraw(p);
       
     }
-    
+    //getters of the XYPoint's parameter
     public double getXval(XYPoints p,Double key){
          return p.getXvalue(key);
     }
@@ -127,6 +124,8 @@ public class GraphBuild {
     public Canvas getGraph(){
         return canvas;
     }
+    
+    //Enable the 0,0 axis
     public void enableZero(XYPoints p){
        g.clearRect(0,0,600,600);
        redraw();
