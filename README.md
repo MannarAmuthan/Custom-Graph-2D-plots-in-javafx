@@ -18,6 +18,8 @@ A custom graph library , to draw  clean 2D plots in a JavaFX canvas.
         c.Scalexy(xy);
         c.linedraw(xy);
         
+        Canvas thisCanvas=c.getCanvas();
+        
         //refer response 1
         --------------------------------------------------------------------------
         
