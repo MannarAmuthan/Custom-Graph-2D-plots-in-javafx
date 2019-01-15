@@ -1,6 +1,14 @@
 # Custom-Graph-2D-plots-in-javafx
 A custom graph library , to draw  clean 2D plots in a JavaFX canvas.
 
+Common features:
+
+1.You can draw line and pie graph/chart
+2.Multiple line graph in one chart
+3.Different colours for, different lines(you can refer image-responseOneupdated)
+4.Powerful accurate geometrical/mathematical tools are added(For example- You can find respective x value for y value)
+
+
 #How to use
         
         //create the objects for both classes
